@@ -1,0 +1,146 @@
+* {margin: 0px; padding: 0px;
+}
+.container {background-color: #ccc;
+height: 200px;}
+.header {height: 100vh;
+background-color: #10c98f;
+display: flex;}
+.navigation {display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #0ea072;
+position: sticky;
+width: 100%;}
+.navigation_logo a {height: 50px;}
+.navigation_container a {margin: 10px;
+text-decoration: none;
+color: white;
+}
+.nav-button {display: block;}
+.navigation_container {display: flex; align-items: center;}
+.nav-button {background-color: #10c98f;
+padding: 10px 40px;}
+
+.header_title {flex: 3; 
+display: flex; justify-content: center; align-items: center;
+flex-direction: column;}
+.header_form {flex: 2; 
+display: flex; justify-content: center; align-items: center;
+}
+.form_card {background-color: white;
+width: 80%; height: 80%;
+margin-top: 80px;
+display: flex; flex-direction: column;  align-items: center;
+margin-right: 120px;}
+.horizontal-line--green {width: 200px;
+    height: 2px; background-color: #10c98f;
+    margin: 10px 0px;}
+form label, input {display: block;
+width: 350px; height: 40px;}
+input {text-align: center;
+}
+label {margin-top: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: gray;
+font-size: 13px;}
+.form-title {color: #063828;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 50px;}
+.form-paragraph {font-family:Georgia, 'Times New Roman', Times, serif;
+padding: 10px 0px;
+color: rgb(105, 105, 105);}
+.form-paragraph2 {margin-top: 10px;
+
+margin-left: 40px;
+font-size: 13px;
+color: gray;}
+.form-dollar {color: #10c98f; font-size: 23px;
+margin-top: 4px;
+font-weight: 600;
+padding-left: 4px;}
+.form-payment {display: flex; align-self: flex-start;
+}
+.form-button {text-decoration: none;
+color: white;
+background-color: #10c98f;
+font-weight: 600;
+margin-top: 10px;
+padding: 15px 130px;}
+.header_primary-title {color: white;
+font-size: 70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.horizontal-line {width: 180px;
+height: 2px; background-color: white;
+margin-top: 10px; margin-right: 200px;
+}
+.header-paragraph {font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+font-size: 25px;
+padding-right: 25px;
+margin-top: 20px;}
+.header-button {text-decoration: none;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+border: 1px solid white;
+padding: 20px 40px;
+margin-top: 20px;
+margin-left: 220px;
+display: flex;
+align-self: flex-start;
+transition-duration: 0.5s;}
+.header-button:hover {background-color: white;
+color: #10c98f;
+transition-duration: 0.5s;}
+.main {background-color: white;
+height: 100vh;
+display: flex; justify-content: center;
+flex-wrap: wrap;}
+.main_title {display: flex; flex-direction: column;
+height: 40%;
+width: 100%;
+}
+.main_primary_title {margin-top: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;}
+.horizontal-line--black {width: 150px;
+height: 2px; background-color: #10c98f;
+margin-left: 44%;
+margin-top: 20px;
+}
+.main_paragraph {font-family: Arial, Helvetica, sans-serif;
+color: gray;
+text-align: center;
+margin-top: 20px;
+font-size: 16px;
+font-weight: 300;}
+.main_cards {display: flex; justify-content: space-evenly;
+align-items: center;
+width: 100%;
+height: 60%;}
+.card {background-color: white;
+width: 350px; height: 300px;
+}
+.card-icon {margin-top: 10px;
+margin-left: 10px;
+height: 60px;}
+.card-icon--description {color: #10c98f;
+font-size: 15px;
+margin-top: 10px; margin-left: 10px;
+}
+.card-title {margin-top: 10px;
+margin-left: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+color: #063828;
+transition-duration: 0.5s;}
+.card-paragraph {font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 10px;
+margin-left: 10px;
+color: gray;
+letter-spacing: 1px;}
+.card-title:hover {color: #10c98f;
+transition-duration: 0.5s;
+cursor: pointer;}
